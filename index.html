@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body" onLoad="addComponents()">
+    <div class="container">
+        <h1>Verificador de Idade</h1>
+        <div class="containerPrincipal">
+            <div id="principal">
+                <div id="containerOpcoes">
+
+                    <div id="divNasc">
+                        <p>Ano de nascimento: <input type="text" id="textBox"></p>
+                    </div>
+
+                    <div id="divSex">
+                        <p>Sexo: <input type="radio" name="radiosex" checked>  Masculino  <input type="radio" name="radiosex" id=""> Feminino</p> 
+                    </div>
+
+                    <div id="divBtn">
+                        <input type="button" id="btn" value="Verificar">
+                    </div>
+
+                    <div id="result">
+                        <div>
+                            <p id="textResult">Detectamos uma mulher com 999 anos</p>
+                            <div id="divImg">
+
+                                <img id="image" src="css/images/BebeMenina.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="arrobaDiv">
+            <p id="arroba">@cwb_kauan</p>
+        </div>
+    </div>
+    <script src="javascript/principal.js"></script>
+</body>
+</html>
