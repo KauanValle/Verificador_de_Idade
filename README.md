@@ -1,12 +1,15 @@
 # <h1>Verificador de idade</h1>
+![NPM](https://img.shields.io/npm/l/react)
 
-<p>Site criado com intuito de estudo. Foram utilizado as seguintes tecnologias:<p/>
+## Sobre o projeto
 
-<ul>
+<p>Este projeto foi criado com intuito de estudo, foi retirado de um exercicio do curso de javascript do <strong>Curso em video</strong>. Esse projeto ele tem o intuito de pegar o ano de nascimento em que o usuario coloca na caixa de texto, calcular quantos anos ele tem de acordo com o ano atual e identificar se está entre <strong>BEBE, CRIANÇA, ADOLESCENTE, ADULTO, IDOSO</strong>. As tecnologias utilizadas para desenvolver esse projeto foi:<p/>
+
+<ol>
  <li>HTML</li>
  <li>CSS</li>
  <li>JAVASCRIPT</li>
-</ul>
+</ol>
 
 <p>Esse site funciona da seguinte maneira:<p/>
  <p>Você vai digitar o seu ano de nascimento na caixa de texto<p/>
